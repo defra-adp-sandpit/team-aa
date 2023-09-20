@@ -2,7 +2,7 @@ apiVersion: resources.azure.com/v1api20200601
 kind: ResourceGroup
 metadata:
   name: aso-teamgg-rg
-  namespace: team-gg
+  namespace: team-aa
 spec:
   location: uksouth
 
@@ -12,7 +12,7 @@ apiVersion: managedidentity.azure.com/v1api20181130
 kind: UserAssignedIdentity
 metadata:
  name: teamaaauserassignedidentity
- namespace: team-gg
+ namespace: team-aa
 spec:
  location: uksouth
  owner:

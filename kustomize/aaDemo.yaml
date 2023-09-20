@@ -6,7 +6,6 @@ metadata:
 spec:
   location: uksouth
 
-
 ---
 apiVersion: managedidentity.azure.com/v1api20181130
 kind: UserAssignedIdentity
@@ -17,3 +16,23 @@ spec:
  location: uksouth
  owner:
    name: aso-teamgg-rg
+
+---
+apiVersion: resources.azure.com/v1api20200601
+kind: ResourceGroup
+metadata:
+  name: aso-teamaa-rg
+  namespace: team-aa
+spec:
+  location: uksouth
+
+---
+apiVersion: managedidentity.azure.com/v1api20181130
+kind: UserAssignedIdentity
+metadata:
+ name: teamaauserassignedidentity
+ namespace: team-aa
+spec:
+ location: uksouth
+ owner:
+   name: aso-teamaa-rg

@@ -37,13 +37,13 @@ spec:
  owner:
    name: aso-teamaa-rg
 
----
-apiVersion: managedidentity.azure.com/v1api20181130
-kind: UserAssignedIdentity
-metadata:
- name: teamggguserassignedidentity
- namespace: team-gg
-spec:
- location: uksouth
- owner:
-   name: aso-teamaa-rg
+# ---
+# apiVersion: managedidentity.azure.com/v1api20181130
+# kind: UserAssignedIdentity
+# metadata:
+#  name: teamggguserassignedidentity
+#  namespace: team-gg
+# spec:
+#  location: uksouth
+#  owner:
+#    name: aso-teamaa-rg
